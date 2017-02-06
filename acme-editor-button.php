@@ -27,3 +27,6 @@ function code_register_button( $buttons ) {
   array_push( $buttons, 'codebutton' );
   return $buttons;
 }
+
+// path is relative to root theme
+add_editor_style('assets/css/custom-editor-styles.css');
